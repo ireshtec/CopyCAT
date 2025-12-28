@@ -72,6 +72,7 @@ def start_copy():
 # -----------------------
 
 def verify_copy():
+    get_mounted_drives()
     if not source_var.get() or not last_copy_folder:
         messagebox.showwarning("Error", "Nothing to verify yet!")
         return
