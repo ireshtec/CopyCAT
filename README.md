@@ -7,6 +7,13 @@ This project uses 3.5 inch 320×480 resolution SPI touch screen, which is relati
 More information on the display found on https://www.lcdwiki.com/3.5inch_RPi_Display.
 Run the following code to get the Pi to use the attached display,
 
+Connect the Pi to the same local network and enable SSH with a password when installing the Pi OS
+Open the Windows Terminal with admin access,
+
+1. ssh username@pi or find the pi IP address from the WIFI router and use username@192.168.1.1 - replace with your IP address
+
+After you have the SSH access, run the following code
+
 1. git clone https://github.com/goodtft/LCD-show.git
 2. chmod -R 755 LCD-show
 3. cd LCD-show/
