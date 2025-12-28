@@ -6,10 +6,10 @@ This project uses 3.5 inch 320×480 resolution SPI touch screen, which is relati
 More information on the display found on https://www.lcdwiki.com/3.5inch_RPi_Display.
 Run the following code to get the Pi to use the attached display,
 
-git clone https://github.com/goodtft/LCD-show.git
-chmod -R 755 LCD-show
-cd LCD-show/
-sudo ./LCD35-show
+1. git clone https://github.com/goodtft/LCD-show.git
+2. chmod -R 755 LCD-show
+3. cd LCD-show/
+4. sudo ./LCD35-show
 
 ==== Autostart the app on startup ====
 This will make the app autostart on the Pi boot, and this will remove the difficult navigation with 3.5 screen
