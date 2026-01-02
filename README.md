@@ -32,8 +32,13 @@ This will make the app autostart on the Pi boot, and this will remove the diffic
 4. nano copycat.desktop
 5. Enter the following code
    [Desktop Entry]
-   Exce=bash -c "sleep 10 && python3 /home/pi/Desktop/main.py"   --- Replace the pi with your device name
-6. Copy the code file copycat.pi to your desktop
+   Type=Application
+   Name=CopyCAT
+   Exec=bash -c "sleep 10 && python3 /home/pi/Desktop/CopyCAT/main.py"
+   x-GNOME-Autostart-enabled=true
+
+--- Replace the pi with your device name
+7. Copy the code file copycat.pi to your desktop
 
 
 
